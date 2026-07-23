@@ -1,9 +1,13 @@
 import requests
 import datetime
 import os
+import smtplib
+from email.mime.text import MIMEText
 
 NTFY_TOPIC = "ricardo-mlb-pitchers-0821"
 ODDS_API_KEY = os.environ.get("ODDS_API_KEY")
+GMAIL_ADDRESS = os.environ.get("ricardo.bosques.tt@gmail.com")
+GMAIL_APP_PASSWORD = os.environ.get("thct trtp jscp mmkb")
 SEASON = "2026"
 
 
@@ -126,7 +130,6 @@ def get_pitchers():
 
             block = [f"{away_name} ({away_p_name}) @ {home_name} ({home_p_name})"]
 
-            # Pitcher stats
             a_stats = get_pitcher_stats(away_p.get("id"))
             h_stats = get_pitcher_stats(home_p.get("id"))
             a_l5 = get_last5_era(away_p.get("id"))
@@ -136,13 +139,11 @@ def get_pitchers():
             if h_stats:
                 block.append(f"  {home_p_name}: ERA {h_stats['era']} | WHIP {h_stats['whip']} | K/9 {h_stats['k9']} | L5 ERA {h_l5}")
 
-            # Last 10 / home-away records
             a_rec = standings.get(away_id, {})
             h_rec = standings.get(home_id, {})
             block.append(f"  Last 10: {away_name} {a_rec.get('last10','N/A')} | {home_name} {h_rec.get('last10','N/A')}")
             block.append(f"  Home/Away: {away_name} away {a_rec.get('away','N/A')} | {home_name} home {h_rec.get('home','N/A')}")
 
-            # OPS vs opposing starter's handedness
             away_p_hand = away_p.get("pitchHand", {}).get("code")
             home_p_hand = home_p.get("pitchHand", {}).get("code")
             if away_p_hand:
@@ -156,7 +157,6 @@ def get_pitchers():
                 if away_ops:
                     block.append(f"  {away_name} OPS vs {'LHP' if home_p_hand=='L' else 'RHP'}: {away_ops}")
 
-            # Odds
             odds_entry = odds.get((away_name.lower(), home_name.lower()))
             if odds_entry:
                 ml = odds_entry.get("moneyline", {})
@@ -172,22 +172,29 @@ def get_pitchers():
 
 
 def send_notification(message):
-    resp = requests.put(
+    resp = requests.post(
         f"https://ntfy.sh/{NTFY_TOPIC}",
         data=message.encode("utf-8"),
-        headers={
-            "Title": "MLB Pitchers & Stats",
-            "Priority": "default",
-            "Filename": "mlb_report.txt",
-        },
+        headers={"Title": "MLB Pitchers & Stats", "Priority": "default"},
         timeout=15,
     )
     print(f"ntfy response status: {resp.status_code}")
-    print(f"ntfy response body: {resp.text}")
     resp.raise_for_status()
+
+
+def send_email(message, subject):
+    msg = MIMEText(message)
+    msg["Subject"] = subject
+    msg["From"] = GMAIL_ADDRESS
+    msg["To"] = GMAIL_ADDRESS
+    with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
+        server.login(GMAIL_ADDRESS, GMAIL_APP_PASSWORD)
+        server.sendmail(GMAIL_ADDRESS, GMAIL_ADDRESS, msg.as_string())
 
 
 if __name__ == "__main__":
     msg = get_pitchers()
     print(msg)
-    send_notification(msg)
+    date = datetime.date.today().isoformat()
+    send_email(msg, f"MLB Pitchers & Stats — {date}")
+    send_notification(f"Today's MLB report is ready — check email ({date})")
