@@ -172,13 +172,18 @@ def get_pitchers():
 
 
 def send_notification(message):
-    resp = requests.post(
+    resp = requests.put(
         f"https://ntfy.sh/{NTFY_TOPIC}",
         data=message.encode("utf-8"),
-        headers={"Title": "MLB Pitchers & Stats", "Priority": "default"},
+        headers={
+            "Title": "MLB Pitchers & Stats",
+            "Priority": "default",
+            "Filename": "mlb_report.txt",
+        },
         timeout=15,
     )
     print(f"ntfy response status: {resp.status_code}")
+    print(f"ntfy response body: {resp.text}")
     resp.raise_for_status()
 
 
