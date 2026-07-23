@@ -17,3 +17,5 @@ jobs:
       - run: python mlb_pitchers.py
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
