@@ -6,8 +6,8 @@ from email.mime.text import MIMEText
 
 NTFY_TOPIC = "ricardo-mlb-pitchers-0821"
 ODDS_API_KEY = os.environ.get("ODDS_API_KEY")
-GMAIL_ADDRESS = os.environ.get("ricardo.bosques.tt@gmail.com")
-GMAIL_APP_PASSWORD = os.environ.get("thct trtp jscp mmkb")
+GMAIL_ADDRESS = os.environ.get("GMAIL_ADDRESS")
+GMAIL_APP_PASSWORD = os.environ.get("GMAIL_APP_PASSWORD")
 SEASON = "2026"
 
 
