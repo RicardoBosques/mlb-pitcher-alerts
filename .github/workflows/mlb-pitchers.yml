@@ -2,7 +2,7 @@ name: Daily MLB Probable Pitchers
 
 on:
   schedule:
-    - cron: '0 13 * * *'
+    - cron: '0 15 * * *'
   workflow_dispatch:
 
 jobs:
