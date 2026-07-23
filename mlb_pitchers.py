@@ -27,12 +27,15 @@ def get_pitchers():
     return f"MLB Probable Pitchers — {date}\n\n" + "\n".join(lines)
 
 def send_notification(message):
-    requests.post(
+    resp = requests.post(
         f"https://ntfy.sh/{NTFY_TOPIC}",
         data=message.encode("utf-8"),
         headers={"Title": "MLB Probable Pitchers", "Priority": "default"},
         timeout=15,
     )
+    print(f"ntfy response status: {resp.status_code}")
+    print(f"ntfy response body: {resp.text}")
+    resp.raise_for_status()
 
 if __name__ == "__main__":
     msg = get_pitchers()
