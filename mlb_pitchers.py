@@ -183,13 +183,14 @@ def send_notification(message):
 
 
 def send_email(message, subject):
+    recipients = [GMAIL_ADDRESS, "bosques.ej@gmail.com"]
     msg = MIMEText(message)
     msg["Subject"] = subject
     msg["From"] = GMAIL_ADDRESS
-    msg["To"] = GMAIL_ADDRESS
+    msg["To"] = ", ".join(recipients)
     with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
         server.login(GMAIL_ADDRESS, GMAIL_APP_PASSWORD)
-        server.sendmail(GMAIL_ADDRESS, GMAIL_ADDRESS, msg.as_string())
+        server.sendmail(GMAIL_ADDRESS, recipients, msg.as_string())
 
 
 if __name__ == "__main__":
