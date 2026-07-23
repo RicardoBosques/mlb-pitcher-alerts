@@ -1,0 +1,17 @@
+name: Daily MLB Probable Pitchers
+
+on:
+  schedule:
+    - cron: '0 13 * * *'  # 8am Central (UTC-5); adjust for DST if needed
+  workflow_dispatch:  # lets you trigger it manually to test
+
+jobs:
+  fetch-and-notify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+      - run: python mlb_pitchers.py
