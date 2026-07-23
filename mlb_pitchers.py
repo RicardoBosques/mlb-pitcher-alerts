@@ -1,7 +1,7 @@
 import requests
 import datetime
 
-NTFY_TOPIC = "ricardo-mlb-pitchers-8f2k1"  # change to your topic
+NTFY_TOPIC = "ricardo-mlb-pitchers-0821"  # change to your topic
 
 def get_pitchers():
     date = datetime.date.today().isoformat()
