@@ -1,0 +1,21 @@
+name: Daily MLB Results Recap
+
+on:
+  schedule:
+    - cron: '0 5 * * *'   # ~11pm Central (CDT/UTC-5) — after most games finish
+  workflow_dispatch:
+
+jobs:
+  fetch-and-notify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+      - run: python mlb_recap.py
+        env:
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
