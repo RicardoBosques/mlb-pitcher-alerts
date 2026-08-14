@@ -5,6 +5,9 @@ on:
     - cron: '0 10 * * *'
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   fetch-and-notify:
     runs-on: ubuntu-latest
@@ -19,3 +22,11 @@ jobs:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
           GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+      - name: Commit opening odds snapshot
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+          git add opening_odds.json
+          git diff --staged --quiet || git commit -m "Update opening odds snapshot"
+          git pull --rebase origin main
+          git push
