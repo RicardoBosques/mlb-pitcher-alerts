@@ -96,5 +96,12 @@
       "San Francisco Giants": -124
     },
     "total": 7.5
+  },
+  "philadelphia phillies|minnesota twins": {
+    "moneyline": {
+      "Minnesota Twins": 124,
+      "Philadelphia Phillies": -146
+    },
+    "total": 8.0
   }
 }
