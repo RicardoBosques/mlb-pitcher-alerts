@@ -166,5 +166,47 @@
       "Los Angeles Dodgers": -250
     },
     "total": 11.0
+  },
+  "new york yankees|baltimore orioles": {
+    "moneyline": {
+      "Baltimore Orioles": 100,
+      "New York Yankees": -108
+    },
+    "total": 8.5
+  },
+  "san francisco giants|cleveland guardians": {
+    "moneyline": {
+      "Cleveland Guardians": -184,
+      "San Francisco Giants": 170
+    },
+    "total": 8.0
+  },
+  "toronto blue jays|tampa bay rays": {
+    "moneyline": {
+      "Tampa Bay Rays": -126,
+      "Toronto Blue Jays": 118
+    },
+    "total": 7.5
+  },
+  "seattle mariners|milwaukee brewers": {
+    "moneyline": {
+      "Milwaukee Brewers": -168,
+      "Seattle Mariners": 156
+    },
+    "total": 7.5
+  },
+  "washington nationals|texas rangers": {
+    "moneyline": {
+      "Texas Rangers": -146,
+      "Washington Nationals": 136
+    },
+    "total": 8.0
+  },
+  "los angeles angels|houston astros": {
+    "moneyline": {
+      "Houston Astros": -156,
+      "Los Angeles Angels": 144
+    },
+    "total": 9.0
   }
 }
