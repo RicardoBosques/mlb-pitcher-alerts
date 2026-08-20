@@ -208,5 +208,12 @@
       "Los Angeles Angels": 144
     },
     "total": 9.0
+  },
+  "atlanta braves|chicago white sox": {
+    "moneyline": {
+      "Atlanta Braves": -105,
+      "Chicago White Sox": -102
+    },
+    "total": 8.5
   }
 }
