@@ -390,5 +390,40 @@
       "San Francisco Giants": 143
     },
     "total": 7.5
+  },
+  "houston astros|new york yankees": {
+    "moneyline": {
+      "Houston Astros": 128,
+      "New York Yankees": -138
+    },
+    "total": 8.5
+  },
+  "kansas city royals|toronto blue jays": {
+    "moneyline": {
+      "Kansas City Royals": 116,
+      "Toronto Blue Jays": -126
+    },
+    "total": 8.5
+  },
+  "milwaukee brewers|new york mets": {
+    "moneyline": {
+      "Milwaukee Brewers": -156,
+      "New York Mets": 144
+    },
+    "total": 7.5
+  },
+  "los angeles dodgers|atlanta braves": {
+    "moneyline": {
+      "Atlanta Braves": 140,
+      "Los Angeles Dodgers": -150
+    },
+    "total": 8.5
+  },
+  "baltimore orioles|st. louis cardinals": {
+    "moneyline": {
+      "Baltimore Orioles": 116,
+      "St. Louis Cardinals": -124
+    },
+    "total": 8.0
   }
 }
