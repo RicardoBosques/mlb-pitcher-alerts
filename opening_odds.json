@@ -425,5 +425,12 @@
       "St. Louis Cardinals": -124
     },
     "total": 8.0
+  },
+  "arizona diamondbacks|san francisco giants": {
+    "moneyline": {
+      "Arizona Diamondbacks": -106,
+      "San Francisco Giants": -102
+    },
+    "total": 8.0
   }
 }
