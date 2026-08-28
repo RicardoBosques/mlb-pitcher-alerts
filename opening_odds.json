@@ -516,5 +516,19 @@
       "Philadelphia Phillies": -134
     },
     "total": 8.5
+  },
+  "seattle mariners|toronto blue jays": {
+    "moneyline": {
+      "Seattle Mariners": 136,
+      "Toronto Blue Jays": -146
+    },
+    "total": 7.0
+  },
+  "baltimore orioles|athletics": {
+    "moneyline": {
+      "Athletics": 100,
+      "Baltimore Orioles": -108
+    },
+    "total": 9.5
   }
 }
