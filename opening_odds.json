@@ -607,5 +607,40 @@
       "Philadelphia Phillies": -136
     },
     "total": 7.5
+  },
+  "san francisco giants|pittsburgh pirates": {
+    "moneyline": {
+      "Pittsburgh Pirates": -168,
+      "San Francisco Giants": 142
+    },
+    "total": 7.5
+  },
+  "toronto blue jays|cleveland guardians": {
+    "moneyline": {
+      "Cleveland Guardians": -184,
+      "Toronto Blue Jays": 154
+    },
+    "total": 8.0
+  },
+  "atlanta braves|washington nationals": {
+    "moneyline": {
+      "Atlanta Braves": -180,
+      "Washington Nationals": 152
+    },
+    "total": 9.5
+  },
+  "miami marlins|kansas city royals": {
+    "moneyline": {
+      "Kansas City Royals": -120,
+      "Miami Marlins": 102
+    },
+    "total": 10.0
+  },
+  "st. louis cardinals|los angeles dodgers": {
+    "moneyline": {
+      "Los Angeles Dodgers": -196,
+      "St. Louis Cardinals": 164
+    },
+    "total": 8.5
   }
 }
