@@ -642,5 +642,26 @@
       "St. Louis Cardinals": 164
     },
     "total": 8.5
+  },
+  "boston red sox|baltimore orioles": {
+    "moneyline": {
+      "Baltimore Orioles": 108,
+      "Boston Red Sox": -126
+    },
+    "total": 8.5
+  },
+  "tampa bay rays|texas rangers": {
+    "moneyline": {
+      "Tampa Bay Rays": -126,
+      "Texas Rangers": 108
+    },
+    "total": 7.5
+  },
+  "athletics|seattle mariners": {
+    "moneyline": {
+      "Athletics": 180,
+      "Seattle Mariners": -215
+    },
+    "total": 7.0
   }
 }
