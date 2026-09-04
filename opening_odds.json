@@ -663,5 +663,89 @@
       "Seattle Mariners": -215
     },
     "total": 7.0
+  },
+  "detroit tigers|cleveland guardians": {
+    "moneyline": {
+      "Cleveland Guardians": -138,
+      "Detroit Tigers": 118
+    },
+    "total": 8.0
+  },
+  "milwaukee brewers|cincinnati reds": {
+    "moneyline": {
+      "Cincinnati Reds": 136,
+      "Milwaukee Brewers": -162
+    },
+    "total": 9.5
+  },
+  "atlanta braves|philadelphia phillies": {
+    "moneyline": {
+      "Atlanta Braves": 134,
+      "Philadelphia Phillies": -158
+    },
+    "total": 8.0
+  },
+  "los angeles angels|pittsburgh pirates": {
+    "moneyline": {
+      "Los Angeles Angels": 146,
+      "Pittsburgh Pirates": -174
+    },
+    "total": 7.5
+  },
+  "san francisco giants|new york mets": {
+    "moneyline": {
+      "New York Mets": -180,
+      "San Francisco Giants": 152
+    },
+    "total": 8.0
+  },
+  "chicago cubs|miami marlins": {
+    "moneyline": {
+      "Chicago Cubs": -163,
+      "Miami Marlins": 135
+    },
+    "total": 8.0
+  },
+  "minnesota twins|chicago white sox": {
+    "moneyline": {
+      "Chicago White Sox": -124,
+      "Minnesota Twins": 106
+    },
+    "total": 8.5
+  },
+  "arizona diamondbacks|houston astros": {
+    "moneyline": {
+      "Arizona Diamondbacks": -108,
+      "Houston Astros": -108
+    },
+    "total": 8.5
+  },
+  "toronto blue jays|kansas city royals": {
+    "moneyline": {
+      "Kansas City Royals": -110,
+      "Toronto Blue Jays": -106
+    },
+    "total": 9.5
+  },
+  "st. louis cardinals|colorado rockies": {
+    "moneyline": {
+      "Colorado Rockies": 100,
+      "St. Louis Cardinals": -118
+    },
+    "total": 11.0
+  },
+  "new york yankees|san diego padres": {
+    "moneyline": {
+      "New York Yankees": -102,
+      "San Diego Padres": -116
+    },
+    "total": 7.5
+  },
+  "washington nationals|los angeles dodgers": {
+    "moneyline": {
+      "Los Angeles Dodgers": -225,
+      "Washington Nationals": 188
+    },
+    "total": 8.0
   }
 }
