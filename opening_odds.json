@@ -817,5 +817,40 @@
       "Toronto Blue Jays": -172
     },
     "total": 9.5
+  },
+  "houston astros|philadelphia phillies": {
+    "moneyline": {
+      "Houston Astros": 136,
+      "Philadelphia Phillies": -162
+    },
+    "total": 8.0
+  },
+  "colorado rockies|new york yankees": {
+    "moneyline": {
+      "Colorado Rockies": 200,
+      "New York Yankees": -245
+    },
+    "total": 9.0
+  },
+  "tampa bay rays|atlanta braves": {
+    "moneyline": {
+      "Atlanta Braves": -122,
+      "Tampa Bay Rays": 104
+    },
+    "total": 8.5
+  },
+  "pittsburgh pirates|chicago white sox": {
+    "moneyline": {
+      "Chicago White Sox": -162,
+      "Pittsburgh Pirates": 136
+    },
+    "total": 7.5
+  },
+  "texas rangers|seattle mariners": {
+    "moneyline": {
+      "Seattle Mariners": -144,
+      "Texas Rangers": 122
+    },
+    "total": 8.0
   }
 }
