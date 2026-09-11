@@ -852,5 +852,110 @@
       "Texas Rangers": 122
     },
     "total": 8.0
+  },
+  "pittsburgh pirates|chicago cubs": {
+    "moneyline": {
+      "Chicago Cubs": -122,
+      "Pittsburgh Pirates": 104
+    },
+    "total": 8.5
+  },
+  "colorado rockies|detroit tigers": {
+    "moneyline": {
+      "Colorado Rockies": 154,
+      "Detroit Tigers": -184
+    },
+    "total": 8.5
+  },
+  "los angeles angels|washington nationals": {
+    "moneyline": {
+      "Los Angeles Angels": -102,
+      "Washington Nationals": -116
+    },
+    "total": 8.5
+  },
+  "new york mets|new york yankees": {
+    "moneyline": {
+      "New York Mets": 146,
+      "New York Yankees": -174
+    },
+    "total": 8.5
+  },
+  "baltimore orioles|toronto blue jays": {
+    "moneyline": {
+      "Baltimore Orioles": 114,
+      "Toronto Blue Jays": -134
+    },
+    "total": 7.5
+  },
+  "kansas city royals|boston red sox": {
+    "moneyline": {
+      "Boston Red Sox": -196,
+      "Kansas City Royals": 164
+    },
+    "total": 8.5
+  },
+  "houston astros|tampa bay rays": {
+    "moneyline": {
+      "Houston Astros": 120,
+      "Tampa Bay Rays": -142
+    },
+    "total": 7.5
+  },
+  "los angeles dodgers|miami marlins": {
+    "moneyline": {
+      "Los Angeles Dodgers": -215,
+      "Miami Marlins": 180
+    },
+    "total": 7.5
+  },
+  "philadelphia phillies|atlanta braves": {
+    "moneyline": {
+      "Atlanta Braves": 110,
+      "Philadelphia Phillies": -130
+    },
+    "total": 7.5
+  },
+  "cincinnati reds|milwaukee brewers": {
+    "moneyline": {
+      "Cincinnati Reds": 164,
+      "Milwaukee Brewers": -196
+    },
+    "total": 7.5
+  },
+  "cleveland guardians|minnesota twins": {
+    "moneyline": {
+      "Cleveland Guardians": -116,
+      "Minnesota Twins": -102
+    },
+    "total": 7.5
+  },
+  "chicago white sox|st. louis cardinals": {
+    "moneyline": {
+      "Chicago White Sox": -104,
+      "St. Louis Cardinals": -112
+    },
+    "total": 8.5
+  },
+  "seattle mariners|athletics": {
+    "moneyline": {
+      "Athletics": 152,
+      "Seattle Mariners": -180
+    },
+    "total": 9.5
+  },
+  "texas rangers|arizona diamondbacks": {
+    "moneyline": {
+      "Arizona Diamondbacks": -116,
+      "Texas Rangers": -102
+    },
+    "total": 8.5
+  },
+  "san diego padres|san francisco giants": {
+    "moneyline": {
+      "San Diego Padres": -162,
+      "San Francisco Giants": 136
+    },
+    "total": 7.5
   }
 }
