@@ -1026,5 +1026,40 @@
       "Miami Marlins": 124
     },
     "total": 8.5
+  },
+  "athletics|tampa bay rays": {
+    "moneyline": {
+      "Athletics": 193,
+      "Tampa Bay Rays": -239
+    },
+    "total": 8.0
+  },
+  "milwaukee brewers|pittsburgh pirates": {
+    "moneyline": {
+      "Milwaukee Brewers": -215,
+      "Pittsburgh Pirates": 180
+    },
+    "total": 7.5
+  },
+  "philadelphia phillies|washington nationals": {
+    "moneyline": {
+      "Philadelphia Phillies": -217,
+      "Washington Nationals": 177
+    },
+    "total": 8.0
+  },
+  "boston red sox|texas rangers": {
+    "moneyline": {
+      "Boston Red Sox": 114,
+      "Texas Rangers": -134
+    },
+    "total": 7.5
+  },
+  "kansas city royals|houston astros": {
+    "moneyline": {
+      "Houston Astros": -168,
+      "Kansas City Royals": 139
+    },
+    "total": 8.0
   }
 }
