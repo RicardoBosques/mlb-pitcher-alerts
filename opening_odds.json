@@ -1061,5 +1061,26 @@
       "Kansas City Royals": 139
     },
     "total": 8.0
+  },
+  "philadelphia phillies|new york mets": {
+    "moneyline": {
+      "New York Mets": -132,
+      "Philadelphia Phillies": 112
+    },
+    "total": 8.5
+  },
+  "detroit tigers|chicago white sox": {
+    "moneyline": {
+      "Chicago White Sox": -112,
+      "Detroit Tigers": -104
+    },
+    "total": 8.5
+  },
+  "minnesota twins|los angeles angels": {
+    "moneyline": {
+      "Los Angeles Angels": -104,
+      "Minnesota Twins": -112
+    },
+    "total": 7.5
   }
 }
