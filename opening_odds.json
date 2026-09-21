@@ -1166,5 +1166,26 @@
       "San Francisco Giants": 248
     },
     "total": 8.0
+  },
+  "toronto blue jays|baltimore orioles": {
+    "moneyline": {
+      "Baltimore Orioles": -120,
+      "Toronto Blue Jays": 102
+    },
+    "total": 7.5
+  },
+  "washington nationals|detroit tigers": {
+    "moneyline": {
+      "Detroit Tigers": -164,
+      "Washington Nationals": 138
+    },
+    "total": 8.5
+  },
+  "minnesota twins|san francisco giants": {
+    "moneyline": {
+      "Minnesota Twins": -134,
+      "San Francisco Giants": 114
+    },
+    "total": 7.5
   }
 }
