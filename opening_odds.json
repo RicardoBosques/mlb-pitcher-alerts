@@ -1271,5 +1271,19 @@
       "San Diego Padres": 106
     },
     "total": 8.5
+  },
+  "houston astros|athletics": {
+    "moneyline": {
+      "Athletics": 136,
+      "Houston Astros": -162
+    },
+    "total": 10.5
+  },
+  "los angeles angels|seattle mariners": {
+    "moneyline": {
+      "Los Angeles Angels": 112,
+      "Seattle Mariners": -132
+    },
+    "total": 6.5
   }
 }
