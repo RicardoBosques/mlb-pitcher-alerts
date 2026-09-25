@@ -1285,5 +1285,96 @@
       "Seattle Mariners": -132
     },
     "total": 6.5
+  },
+  "chicago cubs|boston red sox": {
+    "moneyline": {
+      "Boston Red Sox": -102,
+      "Chicago Cubs": -116
+    },
+    "total": 6.5
+  },
+  "baltimore orioles|new york yankees": {
+    "moneyline": {
+      "Baltimore Orioles": 100,
+      "New York Yankees": -118
+    },
+    "total": 6.5
+  },
+  "pittsburgh pirates|detroit tigers": {
+    "moneyline": {
+      "Detroit Tigers": -108,
+      "Pittsburgh Pirates": -108
+    },
+    "total": 7.5
+  },
+  "tampa bay rays|philadelphia phillies": {
+    "moneyline": {
+      "Philadelphia Phillies": -178,
+      "Tampa Bay Rays": 150
+    },
+    "total": 6.5
+  },
+  "new york mets|washington nationals": {
+    "moneyline": {
+      "New York Mets": -136,
+      "Washington Nationals": 116
+    },
+    "total": 8.5
+  },
+  "cincinnati reds|toronto blue jays": {
+    "moneyline": {
+      "Cincinnati Reds": 116,
+      "Toronto Blue Jays": -136
+    },
+    "total": 7.5
+  },
+  "atlanta braves|miami marlins": {
+    "moneyline": {
+      "Atlanta Braves": -118,
+      "Miami Marlins": 100
+    },
+    "total": 8.5
+  },
+  "cleveland guardians|kansas city royals": {
+    "moneyline": {
+      "Cleveland Guardians": -142,
+      "Kansas City Royals": 120
+    },
+    "total": 7.5
+  },
+  "colorado rockies|chicago white sox": {
+    "moneyline": {
+      "Chicago White Sox": -235,
+      "Colorado Rockies": 194
+    },
+    "total": 8.5
+  },
+  "st. louis cardinals|milwaukee brewers": {
+    "moneyline": {
+      "Milwaukee Brewers": -188,
+      "St. Louis Cardinals": 158
+    },
+    "total": 7.5
+  },
+  "texas rangers|minnesota twins": {
+    "moneyline": {
+      "Minnesota Twins": -106,
+      "Texas Rangers": -110
+    },
+    "total": 7.5
+  },
+  "arizona diamondbacks|san diego padres": {
+    "moneyline": {
+      "Arizona Diamondbacks": 114,
+      "San Diego Padres": -134
+    },
+    "total": 7.5
+  },
+  "los angeles dodgers|san francisco giants": {
+    "moneyline": {
+      "Los Angeles Dodgers": -335,
+      "San Francisco Giants": 270
+    },
+    "total": 7.5
   }
 }
