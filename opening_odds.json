@@ -1376,5 +1376,12 @@
       "San Francisco Giants": 270
     },
     "total": 7.5
+  },
+  "chicago cubs|san diego padres": {
+    "moneyline": {
+      "Chicago Cubs": 108,
+      "San Diego Padres": -126
+    },
+    "total": 7.5
   }
 }
