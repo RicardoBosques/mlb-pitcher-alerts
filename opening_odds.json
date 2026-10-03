@@ -1383,5 +1383,26 @@
       "San Diego Padres": -126
     },
     "total": 7.5
+  },
+  "atlanta braves|los angeles dodgers": {
+    "moneyline": {
+      "Atlanta Braves": 173,
+      "Los Angeles Dodgers": -212
+    },
+    "total": 8.5
+  },
+  "new york yankees|tampa bay rays": {
+    "moneyline": {
+      "New York Yankees": 114,
+      "Tampa Bay Rays": -134
+    },
+    "total": 6.5
+  },
+  "san diego padres|milwaukee brewers": {
+    "moneyline": {
+      "Milwaukee Brewers": -219,
+      "San Diego Padres": 178
+    },
+    "total": 7.0
   }
 }
