@@ -1404,5 +1404,12 @@
       "San Diego Padres": 178
     },
     "total": 7.0
+  },
+  "milwaukee brewers|san diego padres": {
+    "moneyline": {
+      "Milwaukee Brewers": 116,
+      "San Diego Padres": -134
+    },
+    "total": 7.5
   }
 }
