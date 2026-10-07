@@ -1411,5 +1411,12 @@
       "San Diego Padres": -134
     },
     "total": 7.5
+  },
+  "cleveland guardians|chicago white sox": {
+    "moneyline": {
+      "Chicago White Sox": -130,
+      "Cleveland Guardians": 110
+    },
+    "total": 7.5
   }
 }
