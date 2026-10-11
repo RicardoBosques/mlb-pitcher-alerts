@@ -1418,5 +1418,12 @@
       "Cleveland Guardians": 110
     },
     "total": 7.5
+  },
+  "los angeles dodgers|milwaukee brewers": {
+    "moneyline": {
+      "Los Angeles Dodgers": -110,
+      "Milwaukee Brewers": -106
+    },
+    "total": 6.5
   }
 }
