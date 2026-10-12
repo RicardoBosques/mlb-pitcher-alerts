@@ -1425,5 +1425,12 @@
       "Milwaukee Brewers": -106
     },
     "total": 6.5
+  },
+  "cleveland guardians|tampa bay rays": {
+    "moneyline": {
+      "Cleveland Guardians": 144,
+      "Tampa Bay Rays": -172
+    },
+    "total": 6.5
   }
 }
