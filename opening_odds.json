@@ -1432,5 +1432,12 @@
       "Tampa Bay Rays": -172
     },
     "total": 6.5
+  },
+  "tampa bay rays|cleveland guardians": {
+    "moneyline": {
+      "Cleveland Guardians": -126,
+      "Tampa Bay Rays": 112
+    },
+    "total": 6.5
   }
 }
