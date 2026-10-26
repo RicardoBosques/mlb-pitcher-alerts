@@ -1446,5 +1446,12 @@
       "Tampa Bay Rays": 160
     },
     "total": 6.5
+  },
+  "milwaukee brewers|tampa bay rays": {
+    "moneyline": {
+      "Milwaukee Brewers": 102,
+      "Tampa Bay Rays": -120
+    },
+    "total": 7.5
   }
 }
